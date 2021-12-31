@@ -13,7 +13,7 @@ const posts = document.querySelector(".posts");
 		json.forEach((post) => {
 			posts.innerHTML += `<div class = "post">
                                 <h2>${post.title.rendered}</h2>
-                                ${post.content.rendered}
+                                <div class = "post-content">${post.content.rendered}</div>
                             </div>`;
 		});
 	} catch (error) {

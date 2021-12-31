@@ -15,6 +15,11 @@ body {
 	color: #f4e6e6;
 	width: 80%;
 	margin: 10px auto;
+	font-family: "Roboto", sans-serif;
+}
+
+h1 {
+	font-family: "Licorice", cursive;
 }
 
 .posts {
@@ -23,5 +28,24 @@ body {
 
 .post {
 	padding: 20px 0;
-	/* display: flex; */
+}
+
+.post h2 {
+	text-align: center;
+	padding: 10px;
+	font-size: 1.5rem;
+}
+
+.post-content {
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+.post-content p {
+	margin-left: 5px;
+}
+
+.post-content img {
+	border-radius: 10px;
+	object-fit: cover;
 }
