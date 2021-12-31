@@ -1,0 +1,27 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background: rgb(102, 133, 134);
+	background: radial-gradient(
+		circle,
+		rgb(128, 110, 113) 6%,
+		rgba(164, 36, 59, 1) 50%,
+		rgba(12, 12, 12, 1) 100%
+	);
+
+	color: #f4e6e6;
+	width: 80%;
+	margin: 10px auto;
+}
+
+.posts {
+	margin: 20px 0;
+}
+
+.post {
+	padding: 20px 0;
+	/* display: flex; */
+}
